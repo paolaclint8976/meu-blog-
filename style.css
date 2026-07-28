@@ -1,0 +1,65 @@
+/* Fundo da página */
+body {
+    background-color: #f0f8ff;
+    color: #333333;
+    font-family: Arial, sans-serif;
+}
+
+/* Título principal */
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+/* Subtítulos */
+h2 {
+    color: green;
+}
+
+/* Parágrafos */
+p {
+    color: #444444;
+}
+
+/* Links */
+a {
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
+
+/* Botões */
+button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+
+/* Botão ao passar o mouse */
+button:hover {
+    background-color: darkgreen;
+}
+
+/* Caixas (div) */
+div {
+    background-color: white;
+    border: 2px solid black;
+    padding: 15px;
+    margin: 10px;
+}
+
+/* Lista */
+ul {
+    color: purple;
+}
+
+/* Rodapé */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
