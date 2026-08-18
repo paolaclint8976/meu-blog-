@@ -4,14 +4,19 @@ botoes.forEach(botao => {
     let curtiu = false
     botao.addEventListener("click", curtir)
 function curtir() {
-    let curtidas = document.querySelector("span")
+    let curtidas = botao.querySelector("span")
      
-    if(se curtiu for == false){
+    if(curtiu == false){
      curtiu = true
      curtidas.textContent++
-     botao.style.background-color: "pink"
-    })
+     botao.style.backgroundcolor: "pink"
+    }
 
+    else{
+        curtiu = false
+     curtidas.textContent--
+     botao.style.backgroundcolor: "ligtgray"
+    }
 }
 
 });
