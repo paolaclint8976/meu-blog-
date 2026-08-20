@@ -9,13 +9,13 @@ function curtir() {
     if(curtiu == false){
      curtiu = true
      curtidas.textContent++
-     botao.style.backgroundcolor: "pink"
+     botao.style.backgroundColor= "pink"
     }
 
     else{
         curtiu = false
      curtidas.textContent--
-     botao.style.backgroundcolor: "ligtgray"
+     botao.style.backgroundColor= "lightgray"
     }
 }
 
