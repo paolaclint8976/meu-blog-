@@ -16,4 +16,6 @@ background: rgb(253, 138, 30);
 color:black;
 display: flex; 
 flex-wrap: wrap;
+gap: 20%;
+justify-content: center;
 }
