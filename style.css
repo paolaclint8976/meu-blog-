@@ -1,21 +1,26 @@
-header{
-background-color: rgb(241, 216, 193);
-color:rgb(226, 72, 0);
-text-align: center;
-padding: 10px;
-margin:0 auto;
+header {
+  background-color: rgb(241, 216, 193);
+  color: rgb(226, 72, 0);
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
 }
 
-article{
-    width: 300px;
-    margin: 10px;
+main {
+  background: rgb(241, 216, 193);
+  color: rgb(226, 72, 0);
+  display: grid; 
+  /* MUDANÇA AQUI: As colunas agora têm o tamanho exato do article (300px) */
+  grid-template-columns: repeat(2, 300px); 
+  gap: 100px; 
+  justify-content: center; /* Agora isso vai funcionar perfeitamente */
+  align-items: center;
+  /* MUDANÇA AQUI: Centraliza o bloco do main na tela */
+  margin: 0 auto; 
 }
 
-main{
-background: rgb(241, 216, 193);
-color:rgb(226, 72, 0);
-display: flex; 
-flex-wrap: wrap;
-gap: 20%;
-justify-content: center;
+article {
+  /* MUDANÇA AQUI: O tamanho já é controlado pelo Grid pai */
+  margin: 10px 0; 
+  text-align: center; /* Centraliza o texto dentro do article */
 }
