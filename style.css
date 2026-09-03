@@ -1,6 +1,6 @@
 header{
-background-color: rgb(219, 119, 24);
-color:rgb(0, 0, 0);
+background-color: rgb(241, 216, 193);
+color:rgb(226, 72, 0);
 text-align: center;
 padding: 10px;
 margin:0 auto;
@@ -12,8 +12,8 @@ article{
 }
 
 main{
-background: rgb(253, 138, 30);
-color:black;
+background: rgb(241, 216, 193);
+color:rgb(226, 72, 0);
 display: flex; 
 flex-wrap: wrap;
 gap: 20%;
